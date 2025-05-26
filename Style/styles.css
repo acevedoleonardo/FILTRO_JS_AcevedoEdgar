@@ -1,0 +1,42 @@
+/* Estructura del Cuerpo Principal  */
+body {
+    margin: 0 auto;
+    padding: 0px;
+    width: 95%;
+
+ /* Estilos para dispositivos móviles */
+ @media (max-width: 768px) {
+    body {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+        font-size: 14px;
+    }
+}
+}
+.Encabezado {
+    width: 100%;
+    height: 15vh;
+    background-color: #F08080;
+}
+.menu{
+    font-size: 2vh;
+    align-content: center;
+    letter-spacing: 0.5vw;
+    color: #154360; 
+
+}
+
+#logo {
+    height: 15vh;
+    width: 10vw;
+    float: left;
+}
+
+img{ 
+    height: 22vh;
+    width: 12vw;
+}
+
+.recetas_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
