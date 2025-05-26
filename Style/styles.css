@@ -20,6 +20,7 @@ body {
 .menu{
     font-size: 2vh;
     align-content: center;
+    text-align: center;
     letter-spacing: 0.5vw;
     color: #154360; 
 
@@ -39,4 +40,13 @@ img{
 .recetas_top{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer{
+    background-color:#34495e;
+    height: 2.5vh;
+    width: 100%;
+    font-size: 2vh;
+    color: aliceblue;
+    text-align: center;
 }
